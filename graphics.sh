@@ -1,3 +1,5 @@
+
+set -e
 clear
 tput bold;
 echo "If during installation any error occurs for example removing something then remove it following the instructions on the screen and then run the script again";
@@ -11,8 +13,9 @@ sudo apt-get install libsdl-image1.2
 sudo apt-get install libsdl-image1.2-dev
 sudo apt-get install guile-1.8
 sudo apt-get install guile-1.8-dev
-sudo apt-get install libsdl1.2debian-arts
-sudo apt-get install libartsc0-dev
+#sudo apt-get install libsdl1.2debian-arts
+#sudo apt-get install libartsc0-dev
+sudo apt-get install libsdl1.2debian
 sudo apt-get install libaudiofile-dev
 sudo apt-get install libesd0-dev
 sudo apt-get install libdirectfb-dev
