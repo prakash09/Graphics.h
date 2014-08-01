@@ -10,3 +10,5 @@ steps to use:
 
 
 If any error occurs then follow the instructions on the screen and then again run the script. That's all enjoy
+
+Note: Some functions of turbo c's graphic.h may not work but most of them will work.
